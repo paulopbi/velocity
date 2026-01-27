@@ -1,4 +1,5 @@
 import Badge from "@/components/Badge/Badge";
+import { ArrowRight } from "lucide-react";
 import Button from "../../components/Button/Button";
 import HERO_IMAGE from "/hero-image.jpg";
 
@@ -18,8 +19,12 @@ function Hero() {
 					</p>
 
 					<div className="flex items-center justify-start gap-4 mb-6">
-						<Button variant="primary" size="md">
-							Start Free Trial
+						<Button
+							variant="primary"
+							size="md"
+							className="flex items-center justify-center gap-2"
+						>
+							Start Free Trial <ArrowRight className="w-4 h-4" />
 						</Button>
 						<Button variant="secondary" size="md">
 							Watch Demo
