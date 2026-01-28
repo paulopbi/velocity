@@ -13,7 +13,7 @@ function Hero() {
 					<h1 className="font-bold mb-6 leading-tight  tracking-tight text-pretty max-w-[20ch] text-5xl sm:text-6xl">
 						Build faster with the modern platform
 					</h1>
-					<p className="text-xl text-foreground/60 mb-6 max-w-[45ch]">
+					<p className="text-xl text-muted-foreground mb-6 max-w-[45ch]">
 						Transform your workflow with powerful tools designed for modern
 						teams. Get started in minutes and scale to millions.
 					</p>
@@ -31,7 +31,7 @@ function Hero() {
 						</Button>
 					</div>
 
-					<span className="text-sm text-gray-600">
+					<span className="text-sm text-muted-foreground">
 						No credit card required • 14-day free trial
 					</span>
 				</div>
