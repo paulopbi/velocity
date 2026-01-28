@@ -1,6 +1,6 @@
 import Badge from "@/components/Badge/Badge";
+import Button from "@/components/Button/Button";
 import { ArrowRight } from "lucide-react";
-import Button from "../../components/Button/Button";
 import HERO_IMAGE from "/hero-image.jpg";
 
 function Hero() {
@@ -8,7 +8,7 @@ function Hero() {
 		<section className="py-30">
 			<div className="container mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
 				{/* left side */}
-				<div>
+				<div className="order-2 sm:order-1">
 					<Badge className="mb-6">✨ New: AI-Powered Analytics</Badge>
 					<h1 className="font-bold mb-6 leading-tight  tracking-tight text-pretty max-w-[20ch] text-5xl sm:text-6xl">
 						Build faster with the modern platform
@@ -37,7 +37,7 @@ function Hero() {
 				</div>
 
 				{/* right side */}
-				<div className="shadow-2xl rounded-2xl overflow-hidden">
+				<div className="shadow-2xl rounded-2xl overflow-hidden order-1 sm:order-2 hover:scale-[1.05] transition-all">
 					<img
 						src={HERO_IMAGE}
 						alt="A.I"
