@@ -1,4 +1,4 @@
-import { teamStatus } from "../../constants/about";
+import { teamStatus } from "@/constants/about";
 import ABOUT_IMAGE from "/about-image.jpg";
 
 function About() {

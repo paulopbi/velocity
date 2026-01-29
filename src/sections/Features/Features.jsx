@@ -1,4 +1,4 @@
-import { features } from "../../constants/features";
+import { features } from "@/constants/features";
 
 function Features() {
 	return (
