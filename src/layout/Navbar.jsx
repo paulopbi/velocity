@@ -1,6 +1,7 @@
 import Button from "@/components/Button/Button";
+import Logo from "@/components/Logo/Logo";
 import { navLinks } from "@/constants/navegation";
-import { Menu, X, Zap } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { useState } from "react";
 
 function Navbar() {
@@ -10,12 +11,7 @@ function Navbar() {
 		<nav className="border-b border-border bg-white/80 backdrop-blur-sm fixed w-full top-0 left-0 z-50">
 			<div className="relative container mx-auto px-6 flex items-center justify-between h-20 lg:px-8">
 				{/* logo */}
-				<div className="flex items-center gap-2">
-					<div className="bg-primary p-2 rounded-md">
-						<Zap className="w-5 h-5 text-white" />
-					</div>
-					<span className="text-lg font-bold">Velocity</span>
-				</div>
+				<Logo href="#" />
 
 				{/* links */}
 				<ul className="hidden lg:flex items-center justify-center gap-6">
