@@ -1,0 +1,46 @@
+export const pricingInfo = [
+	{
+		type: "Starter",
+		price: "$29",
+		description: "Perfect for small teams",
+		features: [
+			"Up to 10 team members",
+			"5GB storage",
+			"Basic analytics",
+			"Email support",
+		],
+		buttonText: "Get Started",
+		buttonLink: "#",
+		mostPopular: false,
+	},
+	{
+		type: "Pro",
+		price: "$29",
+		description: "For growing businesses",
+		features: [
+			"Up to 50 team members",
+			"50GB storage",
+			"Advanced analytics",
+			"Priority support",
+			"Custom integrations",
+		],
+		buttonText: "Get Started",
+		buttonLink: "#",
+		mostPopular: false,
+	},
+	{
+		type: "Ultimate",
+		price: "$100",
+		description: "For large businesses",
+		features: [
+			"Unlimited team members",
+			"Unlimited storage",
+			"Custom analytics",
+			"24/7 dedicated support",
+			"SLA guarantees",
+		],
+		buttonText: "Contact Sale",
+		buttonLink: "#",
+		mostPopular: true,
+	},
+];
