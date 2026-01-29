@@ -6,7 +6,7 @@ function About() {
 		<section id="about" className="my-20">
 			<div className="container px-6 mx-auto grid md:grid-cols-2 gap-6 items-center justify-center">
 				{/* left side */}
-				<div className="shadow-2xl rounded-2xl overflow-hidden hover:scale-[1.05] transition-all order-2 md:order-1">
+				<div className="shadow-2xl rounded-2xl overflow-hidden hover:scale-[1.05] transition-all mb-4 md:mb-0">
 					<img
 						src={ABOUT_IMAGE}
 						alt="Team collaboration"
@@ -16,11 +16,11 @@ function About() {
 
 				{/* right side */}
 				<div className="flex flex-col gap-4">
-					<div className="*:text-center *:mb-6">
-						<h3 className="text-4xl font-bold">Trusted by teams worldwide</h3>
-						<p className="text-xl text-muted-foreground max-w-[45ch] mx-auto">
+					<div className="*:text-center *:mb-4">
+						<h3 className="title">Trusted by teams worldwide</h3>
+						<p className="subtitle max-w-[45ch] mx-auto">
 							Join thousands of companies that have transformed their workflow
-							with our platform. From startups to enterprise, we scale with your
+							with our platform, from startups to enterprise, we scale with your
 							needs.
 						</p>
 					</div>
@@ -31,7 +31,7 @@ function About() {
 								key={item.title}
 								className="flex flex-col items-center justify-center gap-1"
 							>
-								<h3 className="text-4xl font-bold">{item.title}</h3>
+								<h3 className="text-3xl font-bold">{item.title}</h3>
 								<p className="text-base text-muted-foreground">
 									{item.subtitle}
 								</p>

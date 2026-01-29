@@ -5,33 +5,35 @@ import HERO_IMAGE from "/hero-image.jpg";
 
 function Hero() {
 	return (
-		<section className="py-30">
+		<section className="mt-35">
 			<div className="container mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
 				{/* left side */}
-				<div className="order-2 sm:order-1">
-					<Badge className="mb-6">✨ New: AI-Powered Analytics</Badge>
-					<h1 className="font-bold mb-6 leading-tight  tracking-tight text-pretty max-w-[20ch] text-5xl sm:text-6xl">
+				<div className="order-2 sm:order-1 *:mb-6">
+					<Badge className="text-center mx-auto md:mx-0 md:text-left">
+						✨ New: AI-Powered Analytics
+					</Badge>
+					<h1 className="title text-center mx-auto md:text-left">
 						Build faster with the modern platform
 					</h1>
-					<p className="text-xl text-muted-foreground mb-6 max-w-[45ch]">
+					<p className="subtitle max-w-[45ch] text-center mx-auto md:text-left md:mx-0">
 						Transform your workflow with powerful tools designed for modern
-						teams. Get started in minutes and scale to millions.
+						teams, get started in minutes and scale to millions.
 					</p>
 
-					<div className="flex items-center justify-start gap-4 mb-6">
+					<div className="flex items-center justify-center md:justify-start gap-4">
 						<Button
 							variant="primary"
 							size="md"
 							className="flex items-center justify-center gap-2"
 						>
-							Start Free Trial <ArrowRight className="w-4 h-4" />
+							Start Free Trial <ArrowRight className="w-5 h-5" />
 						</Button>
 						<Button variant="secondary" size="md">
 							Watch Demo
 						</Button>
 					</div>
 
-					<span className="text-sm text-muted-foreground">
+					<span className="block text-sm text-muted-foreground text-center mx-auto md:text-left md:mx-0">
 						No credit card required • 14-day free trial
 					</span>
 				</div>
