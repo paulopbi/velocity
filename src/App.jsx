@@ -1,4 +1,6 @@
 import Navbar from "@/layout/Navbar";
+import About from "@/sections/About/About";
+import CTA from "@/sections/CTA/CTA";
 import Features from "@/sections/Features/Features";
 import Hero from "@/sections/Hero/Hero";
 import About from "./sections/About/About";
@@ -14,6 +16,7 @@ function App() {
 				<Features />
 				<About />
 				<Pricing />
+				<CTA />
 			</main>
 		</>
 	);
