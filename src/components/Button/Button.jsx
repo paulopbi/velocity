@@ -1,6 +1,12 @@
 import { cn } from "@/utils/cn";
 
-function Button({ children, variant, size, className, ...props }) {
+function Button({
+	children,
+	variant = "primary",
+	size = "sm",
+	className,
+	...props
+}) {
 	const buttonBase =
 		"rounded-xl font-normal transition-colors duration-300 cursor-pointer";
 
