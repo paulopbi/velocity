@@ -1,3 +1,4 @@
+import Footer from "@/layout/Footer";
 import Navbar from "@/layout/Navbar";
 import About from "@/sections/About/About";
 import CTA from "@/sections/CTA/CTA";
@@ -17,6 +18,7 @@ function App() {
 				<Pricing />
 				<CTA />
 			</main>
+			<Footer />
 		</>
 	);
 }
