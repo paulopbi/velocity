@@ -134,4 +134,8 @@
   .subtitle {
     @apply text-base md:text-xl text-muted-foreground font-normal text-pretty;
   }
+
+  .container-section {
+    @apply container mx-auto px-6;
+  }
 }
