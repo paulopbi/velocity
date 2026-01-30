@@ -1,16 +1,17 @@
 import FeatureCard from "@/components/FeatureCard/FeatureCard";
+import Header from "@/components/Header/Header";
 import { features } from "@/constants/features";
 
 function Features() {
 	return (
 		<section className="mb-20 py-10 bg-section/30" id="features">
 			<div className="container-section">
-				{/* header */}
+				{/* heading */}
 				<div className="text-center space-y-2">
-					<h2 className="title">Everything you need to succeed</h2>
-					<p className="subtitle max-w-[40ch] mx-auto">
-						Powerful features to help your team work smarter, not harder.
-					</p>
+					<Header
+						title="Everything you need to succeed"
+						subtitle="Powerful features to help your team work smarter, not harder."
+					/>
 				</div>
 
 				{/* features */}

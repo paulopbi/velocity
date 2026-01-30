@@ -1,14 +1,17 @@
 import Card from "@/components/Card/Card";
+import Header from "@/components/Header/Header";
 import { pricingInfo } from "@/constants/pricing";
 
 function Pricing() {
 	return (
 		<section id="pricing" className="py-20 mb-20 bg-section/30">
-			<div className="container mx-auto px-6">
+			<div className="container-section">
 				{/* heading */}
-				<div className="text-center *:mb-2">
-					<h3 className="title">Simple, transparent pricing</h3>
-					<p className="subtitle">Choose the plan that's right for your team</p>
+				<div className="flex flex-col gap-2 items-center justify-center">
+					<Header
+						title="Simple, transparent pricing"
+						subtitle="Choose the plan that's right for your team"
+					/>
 				</div>
 
 				{/* cards */}

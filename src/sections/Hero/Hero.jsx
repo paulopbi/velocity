@@ -8,7 +8,7 @@ function Hero() {
 		<section className="mt-35 mb-20">
 			<div className="container-section grid lg:grid-cols-2 gap-10 items-center">
 				{/* left side */}
-				<div className="flex flex-col items-center lg:items-start gap-4 order-2 lg:order-1">
+				<div className="flex flex-col items-center lg:items-start gap-2 order-2 lg:order-1">
 					{/* top */}
 					<Badge>✨ New: AI-Powered Analytics</Badge>
 					<h1 className="title text-center lg:text-left">
@@ -45,11 +45,11 @@ function Hero() {
 				</div>
 
 				{/* right side */}
-				<div className="shadow-2xl rounded-2xl overflow-hidden order-1 lg:order-2 hover:scale-[1.05] transition-all lg:max-w-[600px] mx-auto">
+				<div className="shadow-2xl rounded-2xl overflow-hidden order-1 lg:order-2 hover:scale-[1.05] transition-all lg:max-w-[500px] mx-auto">
 					<img
 						src={HERO_IMAGE}
 						alt="A.I"
-						className="w-full h-full aspect-square object-cover"
+						className="w-full h-full aspect-square object-cover object-center"
 					/>
 				</div>
 			</div>

@@ -1,20 +1,21 @@
 import Button from "@/components/Button/Button";
 import { ArrowRight } from "lucide-react";
+import Header from "../../components/Header/Header";
 
 function CTA() {
 	return (
 		<section className="mb-20">
-			<div className="container mx-auto px-6 *:mb-5">
+			<div className="container-section">
 				{/* heading */}
-				<div className="flex flex-col gap-2 text-center items-center justify-center">
-					<h3 className="title">Ready to get started?</h3>
-					<p className="subtitle">
-						Join thousands of teams already building with Velocity
-					</p>
+				<div className="flex flex-col gap-2 items-center justify-center">
+					<Header
+						title="Ready to get started?"
+						subtitle="Join thousands of teams already building with Velocity"
+					/>
 				</div>
 
 				{/* buttons */}
-				<div className="flex gap-4 items-center justify-center">
+				<div className="flex gap-4 items-center justify-center mt-4">
 					<Button
 						variant="primary"
 						size="md"
