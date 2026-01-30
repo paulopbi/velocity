@@ -1,35 +1,22 @@
+import FeatureCard from "@/components/FeatureCard/FeatureCard";
 import { features } from "@/constants/features";
 
 function Features() {
 	return (
 		<section className="mb-20 py-10 bg-section/30" id="features">
-			<div className="container mx-auto">
+			<div className="container-section">
 				{/* header */}
 				<div className="text-center space-y-2">
 					<h2 className="title">Everything you need to succeed</h2>
 					<p className="subtitle max-w-[40ch] mx-auto">
-						Powerful features to help your team work smarter, not harder
+						Powerful features to help your team work smarter, not harder.
 					</p>
 				</div>
 
-				{/* cards */}
-				<div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 justify-center my-10">
+				{/* features */}
+				<div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 items-center justify-center my-10 gap-6 mx-auto">
 					{features.map((feature) => (
-						<div
-							className="bg-white p-6 rounded-lg border border-gray-200 max-w-[400px] shadow-xs hover:shadow-lg transition-shadow *:mb-4"
-							key={feature.title}
-						>
-							{feature.icon && (
-								<div className="bg-gray-200 p-2 rounded-lg w-fit h-fit hover:bg-gray-300 transition-colors">
-									{<feature.icon />}
-								</div>
-							)}
-
-							<h3 className="text-xl font-bold">{feature.title}</h3>
-							<p className="text-muted-foreground max-w-[38ch] text-pretty">
-								{feature.description}
-							</p>
-						</div>
+						<FeatureCard key={feature.title} feature={feature} />
 					))}
 				</div>
 			</div>
