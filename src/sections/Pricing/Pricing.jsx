@@ -3,7 +3,7 @@ import { pricingInfo } from "@/constants/pricing";
 
 function Pricing() {
 	return (
-		<section id="pricing" className="bg-section/30 py-20">
+		<section id="pricing" className="py-20 mb-20 bg-section/30">
 			<div className="container mx-auto px-6">
 				{/* heading */}
 				<div className="text-center *:mb-2">

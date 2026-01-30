@@ -2,7 +2,7 @@ import { features } from "@/constants/features";
 
 function Features() {
 	return (
-		<section className="mt-10 py-12 bg-section/30" id="features">
+		<section className="mb-20 py-10 bg-section/30" id="features">
 			<div className="container mx-auto">
 				{/* header */}
 				<div className="text-center space-y-2">

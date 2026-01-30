@@ -5,7 +5,7 @@ import HERO_IMAGE from "/hero-image.jpg";
 
 function Hero() {
 	return (
-		<section className="mt-35">
+		<section className="mt-35 mb-20">
 			<div className="container mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
 				{/* left side */}
 				<div className="order-2 sm:order-1 *:mb-6">

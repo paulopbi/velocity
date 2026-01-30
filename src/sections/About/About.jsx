@@ -3,7 +3,7 @@ import ABOUT_IMAGE from "/about-image.jpg";
 
 function About() {
 	return (
-		<section id="about" className="my-20">
+		<section id="about" className="mb-20">
 			<div className="container px-6 mx-auto grid md:grid-cols-2 gap-6 items-center justify-center">
 				{/* left side */}
 				<div className="shadow-2xl rounded-2xl overflow-hidden hover:scale-[1.05] transition-all mb-4 md:mb-0">

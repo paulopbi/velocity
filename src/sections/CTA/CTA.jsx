@@ -3,7 +3,7 @@ import { ArrowRight } from "lucide-react";
 
 function CTA() {
 	return (
-		<section id="cta" className="py-20">
+		<section className="mb-20">
 			<div className="container mx-auto px-6 *:mb-5">
 				{/* heading */}
 				<div className="flex flex-col gap-2 text-center items-center justify-center">
