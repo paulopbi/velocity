@@ -11,7 +11,7 @@ function App() {
 		<>
 			<Navbar />
 
-			<main>
+			<main className="min-h-screen">
 				<Hero />
 				<Features />
 				<About />
