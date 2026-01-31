@@ -7,7 +7,7 @@ function Pricing() {
 		<section id="pricing" className="py-20 mb-20 bg-section/30">
 			<div className="container-section">
 				{/* heading */}
-				<div className="flex flex-col gap-2 items-center justify-center">
+				<div className="flex flex-col gap-2 items-center justify-center animation-fade-in animation-delay-500">
 					<Header
 						title="Simple, transparent pricing"
 						subtitle="Choose the plan that's right for your team"
@@ -15,7 +15,7 @@ function Pricing() {
 				</div>
 
 				{/* cards */}
-				<div className="flex flex-col sm:flex-row flex-wrap items-stretch justify-center gap-8 w-full gap-x-8 gap-y-6 mt-10">
+				<div className="flex flex-col sm:flex-row flex-wrap items-stretch justify-center gap-8 w-full gap-x-8 gap-y-6 mt-10 animation-fade-in animation-delay-600">
 					{pricingInfo.map((info) => (
 						<Card key={info.type} info={info} />
 					))}

@@ -5,11 +5,11 @@ function Footer() {
 	const currentYear = new Date().getFullYear();
 	return (
 		<footer id="contact" className="border border-t border-gray-200">
-			<div className="container-section flex flex-col items-center justify-center gap-8 py-10">
+			<div className="container-section flex flex-col items-center justify-center gap-8 py-10 animation-fade-in animation-delay-700">
 				<Logo href="#" />
 
 				{/* social */}
-				<ul className="flex items-center justify-center gap-4">
+				<ul className="flex items-center justify-center gap-4 animation-fade-in animation-delay-800">
 					{socialLinks.map((link) => (
 						<li
 							key={link.href}
@@ -28,7 +28,7 @@ function Footer() {
 				</ul>
 
 				{/* copyright */}
-				<p className="text-muted-foreground text-sm md:text-base">
+				<p className="text-muted-foreground text-sm md:text-base animation-fade-in animation-delay-900">
 					&copy; {currentYear} Velocity. All rights reserved.
 				</p>
 			</div>

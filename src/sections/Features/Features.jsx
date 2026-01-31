@@ -7,7 +7,7 @@ function Features() {
 		<section className="mb-20 py-10 bg-section/30" id="features">
 			<div className="container-section">
 				{/* heading */}
-				<div className="text-center space-y-2">
+				<div className="text-center space-y-2 animation-fade-in animation-delay-200">
 					<Header
 						title="Everything you need to succeed"
 						subtitle="Powerful features to help your team work smarter, not harder."
@@ -15,7 +15,7 @@ function Features() {
 				</div>
 
 				{/* features */}
-				<div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 items-center justify-center my-10 gap-6 mx-auto">
+				<div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 items-center justify-center my-10 gap-6 mx-auto animation-fade-in animation-delay-300">
 					{features.map((feature) => (
 						<FeatureCard key={feature.title} feature={feature} />
 					))}

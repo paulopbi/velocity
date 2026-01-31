@@ -8,7 +8,7 @@ function Hero() {
 		<section className="mt-35 mb-20">
 			<div className="container-section grid lg:grid-cols-2 gap-10 items-center">
 				{/* left side */}
-				<div className="flex flex-col items-center lg:items-start gap-2 order-2 lg:order-1">
+				<div className="flex flex-col items-center lg:items-start gap-2 order-2 lg:order-1 animation-fade-in animation-delay-100">
 					{/* top */}
 					<Badge>✨ New: AI-Powered Analytics</Badge>
 					<h1 className="title text-center lg:text-left">
@@ -22,7 +22,7 @@ function Hero() {
 					{/* bottom */}
 					<div>
 						{/* buttons */}
-						<div className="flex items-center justify-center lg:justify-start gap-4 mb-4">
+						<div className="flex items-center justify-center lg:justify-start gap-4 mb-4 animation-fade-in animation-delay-200">
 							<Button
 								variant="primary"
 								size="md"
@@ -36,7 +36,7 @@ function Hero() {
 						</div>
 
 						{/* label */}
-						<div className="text-center lg:text-left">
+						<div className="text-center lg:text-left animation-fade-in animation-delay-300">
 							<span className="text-sm text-muted-foreground">
 								No credit card required • 14-day free trial
 							</span>
@@ -45,7 +45,7 @@ function Hero() {
 				</div>
 
 				{/* right side */}
-				<div className="shadow-2xl rounded-2xl overflow-hidden order-1 lg:order-2 hover:scale-[1.05] transition-all lg:max-w-[500px] mx-auto">
+				<div className="shadow-2xl rounded-2xl overflow-hidden order-1 lg:order-2 hover:scale-[1.05] transition-all lg:max-w-[500px] mx-auto animation-fade-in animation-delay-300">
 					<img
 						src={HERO_IMAGE}
 						alt="A.I"

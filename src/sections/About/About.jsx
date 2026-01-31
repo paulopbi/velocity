@@ -7,7 +7,7 @@ function About() {
 		<section id="about" className="mb-20">
 			<div className="container-section grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
 				{/* left side */}
-				<div className="shadow-2xl rounded-2xl overflow-hidden order-2 lg:order-1 hover:scale-[1.05] transition-all lg:max-w-[500px] mx-auto">
+				<div className="shadow-2xl rounded-2xl overflow-hidden order-2 lg:order-1 hover:scale-[1.05] transition-all lg:max-w-[500px] mx-auto animation-fade-in animation-delay-300">
 					<img
 						src={ABOUT_IMAGE}
 						alt="Team collaboration"
@@ -17,20 +17,21 @@ function About() {
 
 				{/* right side */}
 				<div className="flex flex-col gap-4 order-2 lg:order-1">
-					<div className="flex flex-col gap-2 items-center justify-center">
+					<div className="flex flex-col gap-2 items-center justify-center animation-fade-in animation-delay-400">
 						<Header
 							title="Trusted by teams worldwide"
 							subtitle="Join thousands of companies that have transformed their workflow with our platform, from startups to enterprise, we scale with your needs."
 						/>
 					</div>
 
-					<div className="grid grid-cols-2 gap-8 md:gap-4 items-center justify-center mx-auto">
+					{/* right side */}
+					<div className="grid grid-cols-2 gap-8 md:gap-4 items-center justify-center mx-auto animation-fade-in animation-delay-500">
 						{teamStatus.map((item) => (
 							<div
 								key={item.title}
 								className="flex flex-col items-center justify-center gap-1"
 							>
-								<h3 className="text-2xl font-semibold text-center">
+								<h3 className="text-xl md:text-2xl font-semibold text-center">
 									{item.title}
 								</h3>
 								<p className="text-base text-muted-foreground text-center">

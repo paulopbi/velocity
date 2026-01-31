@@ -7,7 +7,7 @@ function CTA() {
 		<section className="mb-20">
 			<div className="container-section">
 				{/* heading */}
-				<div className="flex flex-col gap-2 items-center justify-center">
+				<div className="flex flex-col gap-2 items-center justify-center animation-fade-in animation-delay-600">
 					<Header
 						title="Ready to get started?"
 						subtitle="Join thousands of teams already building with Velocity"
@@ -15,7 +15,7 @@ function CTA() {
 				</div>
 
 				{/* buttons */}
-				<div className="flex gap-4 items-center justify-center mt-4">
+				<div className="flex gap-4 items-center justify-center mt-4 animation-fade-in animation-delay-700">
 					<Button
 						variant="primary"
 						size="md"
