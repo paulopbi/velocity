@@ -4,8 +4,8 @@ import { socialLinks } from "@/constants/footer";
 function Footer() {
 	const currentYear = new Date().getFullYear();
 	return (
-		<footer id="contact" className="border border-t border-gray-200 py-10">
-			<div className="container mx-auto px-6 flex flex-col md:flex-row items-center justify-center md:justify-between gap-6">
+		<footer id="contact" className="border border-t border-gray-200">
+			<div className="container-section flex flex-col items-center justify-center gap-8 py-10">
 				<Logo href="#" />
 
 				{/* social */}
