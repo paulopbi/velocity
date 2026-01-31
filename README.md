@@ -2,8 +2,6 @@
   <img src="./public/cover.png" alt="Imagem de capa" />
 </p>
 
-Velocity é uma landing page feita para um SaaS de inteligência artificial, com cores neutras, adaptável a diferentes tamanhos de tela, responsiva e com animações de entrada.
-
 **Velocity** é uma landing page desenvolvida especialmente para apresentar um produto de SaaS de inteligência artificial de forma impactante e profissional. 
 
 O projeto combina design minimalista com animações fluidas, oferecendo uma experiência de usuário incrível em qualquer dispositivo.
@@ -50,9 +48,7 @@ Este projeto foi construído com as seguintes tecnologias:
 
 ## Design
 
-O design original foi criado no Figma e você pode ver mais no link abaixo:
-
-[Ver Design no Figma](https://www.figma.com/make/3iijyEzQMsYrOSiu4kx3L7/Landing-Page-Light-Mode?t=p00qXhv2H0Ity4XI-1)
+O design original foi criado no Figma e você pode ver [mais clicando aqui](https://www.figma.com/make/3iijyEzQMsYrOSiu4kx3L7/Landing-Page-Light-Mode?t=p00qXhv2H0Ity4XI-1).
 
 > [!NOTE]
 > Algumas alterações foram implementadas durante o desenvolvimento para otimizar a experiência do usuário.
@@ -60,4 +56,4 @@ O design original foi criado no Figma e você pode ver mais no link abaixo:
 
 ## Licença
 
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
+Este projeto está sob a licença MIT, veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
