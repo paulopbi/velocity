@@ -1,16 +1,44 @@
-# React + Vite
+<p align="center">
+  <img src="./public/cover-no-description.png" alt="Imagem de capa" />
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Velocity é uma landing page feita para um SaaS de inteligência artificial, com cores neutras, adaptável a diferentes tamanhos de tela, responsiva e com animações de entrada.
 
-Currently, two official plugins are available:
+## Tecnologias
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React**: framework para desenvolvimento de interfaces de usuário.
+- **JavaScript**: linguagem de programação.
+- **Tailwind CSS**: framework para estilização de interfaces de usuário.
+- **Tailwind Merge**: biblioteca para mesclagem de classes do Tailwind CSS.
+- **Clsx**: biblioteca para mesclagem de classes do Tailwind CSS.
+- **Biome**: ferramenta de formatação e linting de código.
+- **Lucide React**: biblioteca de ícones para React.
+- **Vite**: framework para desenvolvimento de aplicações web.
+- **Bun**: runtime para desenvolvimento de aplicações web.
+- **Git**: sistema de controle de versão.
 
-## React Compiler
+## Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Tailwind Merge / Clsx**: Uso de tailwind merge para mesclagem de classes do Tailwind CSS.
+- **Mobile First**: O site foi desenvolvido com a abordagem mobile first, garantindo uma experiência consistente em todos os dispositivos.
+- **Modificação do Tailwind**:Foram acrescentadas classes, cores e animações personalizadas.
+- **Componentização**: Uso de componentes para facilitar a manutenção e a reutilização de código.
+- **Responsividade**: A landing page é responsiva e se adapta a diferentes tamanhos de tela.
+- **Animações**: A landing page possui animações suaves e modernas.
+- **Design**: A landing page possui um design moderno e atraente.
 
-## Expanding the ESLint configuration
+## Demonstração
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<p align="center">
+  <img src="./public/demo.png" alt="Imagem de demonstração" />
+</p>
+
+> Demonstração da sessão de hero da landing page
+
+## Design
+
+Você pode conferir o design original no [figma](https://www.figma.com/make/3iijyEzQMsYrOSiu4kx3L7/Landing-Page-Light-Mode?t=p00qXhv2H0Ity4XI-1) (houveram algumas alterações na versão final do site)
+
+## Licença
+
+Este projeto está sob a licença [MIT](./LICENSE).
