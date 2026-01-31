@@ -1,44 +1,63 @@
 <p align="center">
-  <img src="./public/cover-no-description.png" alt="Imagem de capa" />
+  <img src="./public/cover.png" alt="Imagem de capa" />
 </p>
 
 Velocity é uma landing page feita para um SaaS de inteligência artificial, com cores neutras, adaptável a diferentes tamanhos de tela, responsiva e com animações de entrada.
 
+**Velocity** é uma landing page desenvolvida especialmente para apresentar um produto de SaaS de inteligência artificial de forma impactante e profissional. 
+
+O projeto combina design minimalista com animações fluidas, oferecendo uma experiência de usuário incrível em qualquer dispositivo.
+
 ## Tecnologias
 
-- **React**: framework para desenvolvimento de interfaces de usuário.
-- **JavaScript**: linguagem de programação.
-- **Tailwind CSS**: framework para estilização de interfaces de usuário.
-- **Tailwind Merge**: biblioteca para mesclagem de classes do Tailwind CSS.
-- **Clsx**: biblioteca para mesclagem de classes do Tailwind CSS.
-- **Biome**: ferramenta de formatação e linting de código.
-- **Lucide React**: biblioteca de ícones para React.
-- **Vite**: framework para desenvolvimento de aplicações web.
-- **Bun**: runtime para desenvolvimento de aplicações web.
-- **Git**: sistema de controle de versão.
+Este projeto foi construído com as seguintes tecnologias:
+
+- **[React](https://react.dev/)** - Biblioteca para construção de interfaces de usuário.
+- **[JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)** - Linguagem de programação.
+- **[Vite](https://vitejs.dev/)** - Build tool e dev server de última geração.
+
+- **[Tailwind CSS](https://tailwindcss.com/)** - Framework CSS utility-first.
+- **[Tailwind Merge](https://github.com/dcastil/tailwind-merge)** - Mescla inteligente de classes Tailwind.
+- **[Clsx](https://github.com/lukeed/clsx)** - Utilitário para construção condicional de classes.
+
+- **[Lucide React](https://lucide.dev/)** - Biblioteca de ícones moderna e consistente.
+
+- **[Biome](https://biomejs.dev/)** - Linter e formatador de código rápido.
+- **[Bun](https://bun.sh/)** - Runtime JavaScript de alta performance.
+- **[Git](https://git-scm.com/)** - Controle de versão.
 
 ## Funcionalidades
 
-- **Tailwind Merge / Clsx**: Uso de tailwind merge para mesclagem de classes do Tailwind CSS.
-- **Mobile First**: O site foi desenvolvido com a abordagem mobile first, garantindo uma experiência consistente em todos os dispositivos.
-- **Modificação do Tailwind**:Foram acrescentadas classes, cores e animações personalizadas.
-- **Componentização**: Uso de componentes para facilitar a manutenção e a reutilização de código.
-- **Responsividade**: A landing page é responsiva e se adapta a diferentes tamanhos de tela.
-- **Animações**: A landing page possui animações suaves e modernas.
-- **Design**: A landing page possui um design moderno e atraente.
+### Técnicas
+- **Tailwind Merge & Clsx**: Sistema inteligente de mesclagem de classes CSS para evitar conflitos.
+- **Mobile First**: Abordagem que prioriza a experiência mobile, garantindo compatibilidade perfeita em todos os dispositivos.
+- **Customização Avançada**: Configuração estendida do Tailwind com classes, cores e animações personalizadas.
+- **Arquitetura em Componentes**: Estrutura modular que facilita manutenção e reaproveitamento de código.
+
+### Visual
+- **Responsividade Total**: Adapta-se fluidamente a qualquer tamanho de tela.
+- **Animações de Entrada**: Efeitos visuais que tornam a navegação mais envolvente.
+- **Design System Consistente**: Padronização visual em toda a aplicação.
+
 
 ## Demonstração
 
-<p align="center">
+<a href="https://velocity-three-tawny.vercel.app/" target="_blank" rel="noopener noreferrer" align="center">
   <img src="./public/demo.png" alt="Imagem de demonstração" />
-</p>
+</a>
 
-> Demonstração da sessão de hero da landing page
+> [Clique aqui para ver a versão final](https://velocity-three-tawny.vercel.app/)
 
 ## Design
 
-Você pode conferir o design original no [figma](https://www.figma.com/make/3iijyEzQMsYrOSiu4kx3L7/Landing-Page-Light-Mode?t=p00qXhv2H0Ity4XI-1) (houveram algumas alterações na versão final do site)
+O design original foi criado no Figma e você pode ver mais no link abaixo:
+
+[Ver Design no Figma](https://www.figma.com/make/3iijyEzQMsYrOSiu4kx3L7/Landing-Page-Light-Mode?t=p00qXhv2H0Ity4XI-1)
+
+> [!NOTE]
+> Algumas alterações foram implementadas durante o desenvolvimento para otimizar a experiência do usuário.
+
 
 ## Licença
 
-Este projeto está sob a licença [MIT](./LICENSE).
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
